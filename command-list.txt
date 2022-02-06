@@ -1,0 +1,14 @@
+npm init -y    
+npm install --save express dotenv
+npm install -D typescript nodemon ts-node
+npm install -D @types/node  
+
+tsc --init
+
+npm install nodemon (save edince otomatik yenileme yapar) 
+touch  index.js
+touch command-list.txt
+mkdir routes controllers
+
+npm install node-fetch
+npm install @types/node-fetch
