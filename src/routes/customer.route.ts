@@ -7,7 +7,7 @@ export default class AppRouter {
     public app: ICustomerController = new CustomerController();
 
     constructor() {
-        this.appRouter.get("/getall_data", this.app.getAllCustomers); 
+        this.appRouter.get("/getall_data", this.app.getAllCustomers);
     }
 
 }
