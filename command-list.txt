@@ -12,3 +12,5 @@ mkdir routes controllers
 
 npm install node-fetch
 npm install @types/node-fetch
+
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
