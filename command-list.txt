@@ -14,3 +14,11 @@ npm install node-fetch
 npm install @types/node-fetch
 
 npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+
+npm install mongodb
+
+npm install dotenv
+
+
+kill -9 4451 
+lsof -i tcp:5000

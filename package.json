@@ -16,12 +16,13 @@
   "dependencies": {
     "axios": "^0.21.4",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^4.3.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/jest": "^26.0.4",
-    "@types/node": "^16.9.3",
+    "@types/node": "^16.11.22",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",

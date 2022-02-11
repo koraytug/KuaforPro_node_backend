@@ -1,6 +1,10 @@
-import {Request, Response} from "express";
+import {ICustomer} from "../models/icustomer";
+
 
 export interface ICustomerService {
-    // getAllData(req: Request, res: Response);
-    getAllCustomers(): Promise<any>
+    getAllCustomers(customer: string);
+    getCustomer(customer: string, id: string);
+    createCustomer(customer: ICustomer);
+    updateCustomer(customer: ICustomer);
+    deleteCustomer(customer: string, id: string);
 }
